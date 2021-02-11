@@ -1,0 +1,34 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type UserObjectType {
+  """user uniq id"""
+  id: Int!
+  email: String!
+  name: String!
+}
+
+type Query {
+  users: [UserObjectType!]!
+  user(id: Int!): UserObjectType!
+}
+
+type Mutation {
+  createUser(createUserInput: CreateUserInput!): UserObjectType!
+  updateUser(updateUserInput: UpdateUserInput!): UserObjectType!
+  removeUser(id: Int!): UserObjectType!
+}
+
+input CreateUserInput {
+  email: String!
+  name: String!
+}
+
+input UpdateUserInput {
+  email: String
+  name: String
+
+  """user uniq id"""
+  id: Int!
+}
