@@ -1,6 +1,6 @@
 {
   "name": "@micro-courses/client",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "proxy": "http://localhost:8080/graphql",
   "dependencies": {
     "@apollo/client": "^3.3.9",
@@ -46,5 +46,6 @@
   },
   "devDependencies": {
     "@graphql-codegen/typescript": "^1.21.0"
-  }
+  },
+  "gitHead": "5a460adba8580ee66986d9fb84f9e005130a433b"
 }

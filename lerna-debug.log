@@ -1,6 +1,16 @@
-42 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
-42 error remote: Invalid username or password.
-42 error fatal: Authentication failed for 'https://github.com/ParomovEvg/micro-courses.git/'
-42 error
-42 error     at makeError (/home/paromov/prog/@micro-courses/node_modules/execa/index.js:174:9)
-42 error     at /home/paromov/prog/@micro-courses/node_modules/execa/index.js:278:16
+40 error Error: Command failed: git commit -F /tmp/8657997d-7ad1-4d3b-ac2f-ac6b7bbefc5b/lerna-commit.txt
+40 error
+40 error *** Пожалуйста, скажите мне кто вы есть.
+40 error
+40 error Запустите
+40 error
+40 error   git config --global user.email "you@example.com"
+40 error   git config --global user.name "Ваше Имя"
+40 error
+40 error для указания идентификационных данных аккаунта по умолчанию.
+40 error Пропустите параметр --global для указания данных только для этого репозитория.
+40 error
+40 error fatal: не удалось выполнить автоопределение адреса электронной почты (получено «root@paromov-HN-WX9X.(none)»)
+40 error
+40 error     at makeError (/home/paromov/prog/@micro-courses/node_modules/execa/index.js:174:9)
+40 error     at Promise.all.then.arr (/home/paromov/prog/@micro-courses/node_modules/execa/index.js:278:16)
