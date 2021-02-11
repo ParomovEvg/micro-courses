@@ -1,0 +1,2 @@
+directive @key(fields: ID!) on OBJECT | INTERFACE
+directive @extends on OBJECT | INTERFACE
