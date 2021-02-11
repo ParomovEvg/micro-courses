@@ -2,7 +2,6 @@
   "name": "@micro-courses/client",
   "version": "0.1.1",
   "proxy": "http://localhost:8080/graphql",
-  "private": true,
   "dependencies": {
     "@apollo/client": "^3.3.9",
     "@testing-library/jest-dom": "^5.11.4",

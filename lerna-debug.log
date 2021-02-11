@@ -1,0 +1,6 @@
+42 error Error: Command failed: git push --follow-tags --no-verify --atomic origin master
+42 error remote: Invalid username or password.
+42 error fatal: Authentication failed for 'https://github.com/ParomovEvg/micro-courses.git/'
+42 error
+42 error     at makeError (/home/paromov/prog/@micro-courses/node_modules/execa/index.js:174:9)
+42 error     at /home/paromov/prog/@micro-courses/node_modules/execa/index.js:278:16

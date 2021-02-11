@@ -4,6 +4,7 @@ import { gql, useQuery } from "@apollo/client";
 import { getUsersQuery } from "./queries/getUsers.query";
 import { GetUsersQuery } from "./queries/types/GetUsersQuery";
 
+console.log('changed')
 function App() {
   const { loading, data } = useQuery<GetUsersQuery>(getUsersQuery);
 
